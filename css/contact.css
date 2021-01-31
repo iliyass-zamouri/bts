@@ -1,0 +1,55 @@
+body {
+	font-family: 'Calibri','Book Antiqua','New Times Roman'; 
+}
+h1,h2 {
+	font-family: 'Bookman Old Style','Arial','BATMANFOREVERALTERNATIVE';   
+}
+input[type=text], select, textarea, checkbox {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: #0C3865;
+  float: none;
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+	color: white;
+  background-color: #48C2B3;
+}
+.contact {
+	padding: 9px;
+	background-color:  white;
+	color: #0C3865;
+}
+.conteneur {
+	color: white;
+	background-color:  #0C3865;
+	margin-left: 15%;
+	margin-right: 15%;
+  padding: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .conteneur {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 20px;
+  }
+  .contact{
+		background-color: white;
+		color: #0C3865;
+		border-radius: 0px;
+		padding: 5px;
+	}
+}

@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="..\css\contact.css">
+</head>
+<body>
+
+<h2 class="contact">Contactez-nous</h2>
+
+<div class="conteneur">
+  <form action="/action_page.php" method="POST">
+
+    <label for="lname">Nom</label>
+    <input type="text" id="nom" name="nom" placeholder="votre nom.." required>
+	
+    <label for="fname">Prénom :</label>
+    <input type="text" id="prenom" name="prenom" placeholder="votre prénom.." required>
+
+    <label for="fname">Email :</label>
+    <input type="text" id="email" name="email" placeholder="votre adresse email.." required>
+
+    <label for="profession">Profession</label>
+    <select id="profession" name="profession" required>
+      <option value="etudiant">Etudiant</option>
+      <option value="enseigant">Enseignant</option>
+      <option value="directeur">Directeur</option>
+    </select>
+	
+	 <input type="checkbox" id="laureat" name="laureat" value="laureat">
+  <label for="laureat">Êtes-vous un Lauréat du BTS?</label>
+  </br></br>
+	
+	<label for="sujet">Sujet :</label>
+	<input type="text" id="sujet" name="sujet" placeholder="sujet.." required>
+    
+	<label for="message">Text du message</label>
+    <textarea id="message" name="message" placeholder="Ecivez votre message ici.." style="height:200px" required></textarea>
+
+    <input type="submit" value="Envoyer">
+  </form>
+</div>
+
+</body>
+</html>

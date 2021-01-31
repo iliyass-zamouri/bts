@@ -1,0 +1,209 @@
+.body-head{
+	background-color: white;
+	color: #0C3865;
+	padding: 5px;
+}
+p {
+	font-family: 'Calibri','Book Antiqua','New Times Roman';
+	text-align:justify;
+	padding: 14px;
+	margin-right: 14px;
+	margin-left: 14px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: white;
+}
+h1,h2 {
+	font-family: 'Bookman Old Style','Arial','BATMANFOREVERALTERNATIVE';   
+}
+.actualite-body {
+	display: inline-block;
+	background-color: white;
+	padding: 7px;
+	width: 50%;
+	height: 60%;
+}
+.Act {
+	position: relative;
+	display: block;
+	width: 98%;
+	height: 28%;
+	background-color: #0C3865;
+	margin: 5px;
+
+}
+.Act-titre{
+	text-align: center;
+	width: 90%;
+	height: 25%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #fff;
+	position: relative;
+	top: 5%;
+
+}
+.a-titre {
+	color: #0C3865;
+	text-decoration: none;
+	font-size: 70%;
+}
+.autres-act {
+	text-align: center;
+	background-color: #48C2B3;
+	width: 70%;
+	display: block;
+	margin-left: 15%;
+	margin-right: 15%;
+	border-style: solid;
+	border-width: thick;
+	border-color: #0C3865;
+}
+.autres-btn {
+	font-family: 'Calibri','Book Antiqua','New Times Roman';
+	font-size: normal;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.Act-body {
+	display: block;
+	position: relative;
+	width: 90%;
+	height: 60%;
+	margin: 3px;
+}
+.Act a {
+	text-align: center;
+	background-color: #48C2B3;
+	display: block;
+	border-style: solid;
+	border-color: #0C3865;
+}
+.a-lire {
+	border-style: none;
+	right: 0%;
+	width: 20%;
+	color: #fff;
+	font-family: 'Calibri','Book Antiqua','New Times Roman';
+	text-decoration: none;
+	font-size: 70%;
+	position: absolute;
+	bottom: 3px;
+}
+.Act-body p {
+	padding: 3px;
+	margin: 0;
+	font-size: 65%;
+	color: #fff;
+	background-color: transparent;
+}
+.contenue2 {
+	background-color: #0C3865;
+}
+.contenue2 h2 {
+	font-size: 80%;
+}
+.merci {
+	width: 100%;
+	position:absolute;
+	top: 20%;left: 0; right: 0;
+	margin: 0;
+	text-align: center;
+	display: block;
+	text-align: center;
+	font-weight: bolder;
+	color: #0C3865;
+	background-color: #fff;	
+	font-size: 600%;
+}
+.div-merci {
+	width: 100%;
+	position:absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	margin: 0;
+}
+.b-merci {
+	margin: 0 auto;
+	background-color: #fff; 
+}
+.div-merci p {
+	position: absolute;
+	text-align: center;
+	top: 50%;left: 20%; right: 20%;
+	background-color: #0C3865;
+	color: #fff;
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.t-merci {
+	width: 20%;
+	height: 10%;
+	padding: 5px;
+	text-align: center;
+	background-color: #fff;
+	text-align: center;
+	top: 70%;left: 40%; right: 35%;
+	position: absolute;
+}
+.t-merci tr td a {
+	text-align: center;
+	display: inline-block;
+	color: #0C3865;
+}
+.t-merci td {
+	margin: 12px;
+}
+#btn-acceuil { 
+		font-family: 'Calibri','Book Antiqua','New Times Roman';
+		font-size: 15px;
+		text-decoration: none;
+		font-family: Arial, Helvetica, sans-serif;
+    	background-color: #0C3865;  
+		width: 80px;
+    	color: #fff;   
+    	padding: 12px;   
+    	margin: 7px 0px;   
+    	border: none;   
+    	cursor: pointer;  
+	
+      } 
+@media only screen and (max-width: 768px) {
+	.actualite-body {
+		background-color: white;
+		position: relative;
+		padding: 3px;
+		width: 100%;
+		height: 80%;
+	}
+	.body-head{
+		background-color: white;
+		color: #0C3865;
+		padding: 5px;
+	}
+	.autres-act {
+		margin: 0;
+		position: absolute;
+		left: 0;
+		bottom: 10px;
+		width: 100%;
+	}
+	.b-merci {
+		width: auto;
+		margin: 100%;
+	}
+	.div-merci p {
+		top: 40%;left: 10%; right: 10%;
+	}
+	.t-merci {
+		width: 100%;
+		height: 10%;
+		margin: 0;
+		padding: 5px;
+		text-align: center;
+		background-color: #fff;
+		top: 70%;left: 0; right: 0;
+		position: absolute;
+	}
+	
+}

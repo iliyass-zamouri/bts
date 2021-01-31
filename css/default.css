@@ -1,0 +1,139 @@
+p {
+	font-family: 'Calibri','Book Antiqua','New Times Roman';
+	text-align:justify;
+	background-color: white;
+}
+h1,h2 {
+	font-family: 'Bookman Old Style','Arial','BATMANFOREVERALTERNATIVE';   
+}
+body {
+	background-image: url("../images/background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	height: 400px;
+
+}
+/* classe type div pour l'en-tête */
+.header {
+    width: 100%;
+    height: 20%;
+    margin: auto;
+    padding: auto;
+}
+.header iframe {
+	width: 100%; 
+	height: 100%;
+}
+footer {
+	text-align: center;
+	width:100;
+	height: 15%;
+}
+.footer {
+	width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: auto;
+}
+.footer iframe {
+	width: 100%; 
+	height: 100%;
+}
+/* class pour le corps où le contenu apparaîtra */
+.contenue {
+    float: left;
+    width: 80%;
+    height: 150%;
+}
+.contenue iframe {
+	width: 100%; 
+	height: 100%;
+}
+/* classe pour la barre latérale où existe le formulaire de connexion */
+.actualite {
+    background-color: #0C3865;
+    margin-top: 8px;
+    width: 20%;
+    height: 150%;
+    float: right;
+}
+/* div pour le formulaire de connexion */
+.login-div {
+    width: auto;
+    margin: 5px;
+    padding: 7px;
+    height: 20%;
+}
+/* classe pour les libellés du formulaire de connexion */
+.lbl-login {
+    	font-family: 'Calibri','Book Antiqua','New Times Roman';
+    	width: 100%;  
+    	color: white;   
+    	padding: 3px; 
+    	margin: 15px 0px;   
+    	border: none;
+}
+/* le bouton se connecter du formulaire de connexion */
+.login-button {   
+	font-family: 'Calibri','Book Antiqua','New Times Roman';
+	font-size: 15px;
+    	background-color: white;  
+    	width: 100%;  
+    	color: #0C3865;   
+    	padding: 10px;   
+    	margin: 7px 0px;   
+    	border: none;   
+    	cursor: pointer;  
+	
+      } 
+/* les zones de texte du login et le mot de passe  */
+    input[type=text], input[type=password] {   
+    	width: 100%;   
+    	margin: 4px 0; 
+	padding: 7px 20px;   
+	display: inline-block;   
+	border: 2px solid white;   
+	box-sizing: border-box;   
+    } 
+.login-button:hover {
+	color: white;
+  background-color: #48C2B3;
+}	
+#mp-oublier {
+	font-size: 80%;
+	font-family: Calibri, "Book Antiqua", "New Times Roman";
+	color: #fff;
+
+}
+#mp-oublier:visited {
+	color: #fff;
+	
+}
+@media only screen and (max-width: 768px) {
+	.actualite {
+		position: relative;
+		left: 7px;
+		margin: 7px;
+		width: 100%;
+		height: auto;
+	}
+	.header {
+		width: 100%;
+		height: 20%;
+		margin: auto;
+		padding: auto;
+	}
+	footer {
+		height: 30%;
+	}
+	.contenue {
+		position: none;
+		width: 100%;
+		height: 150%;
+	}
+	body {	
+		margin: auto;
+	}
+  }

@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="..\css\inscription.css">
+<script type="text/javascript" src="../js/inscrire.js"></script>
+<title>Inscription</title>
+</head>
+<body>
+
+<h2 class="contact">Formulaire d'inscription</h2>
+
+<div class="conteneur">
+  <form action="../php/inscription.php" method="POST">
+
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" placeholder="votre nom.." required>
+	
+    <label for="prenom">Prénom :</label>
+    <input type="text" id="prenom" name="prenom" placeholder="votre prénom.." required>
+    <br>
+    <label for="email">Email :</label>
+    <input type="text" id="email" name="email" placeholder="votre adresse email.." onfocusout="verifierFormat();" required>
+    <label for="e-conf">confirmation :</label>
+    <input type="text" id="e-conf" name="e-conf" onfocusout="verifierEmail();" placeholder="confirmation.." required>
+    
+    <div class="MotPass"><span id="emessage"></span></div>
+
+    <label for="mp">Mot de passe :</label>
+    <input type="password" id="mp" name="mp"  onfocusout="verifierMpFormat();" placeholder="votre mot de passe.." required>
+    
+    <label for="mp-conf">confirmation :</label>
+    <input type="password" id="mp-conf" name="mp-conf" onfocusout="verifierMp();" placeholder="confirmation.." required>
+    <br>
+    <div class="MotPass"><span id="pmessage"></span></div>
+    <br>
+	 <input type="checkbox" id="laureat" name="laureat" value="laureat">
+  <label id="l-laureat" for="laureat">Êtes-vous un Lauréat du BTS?</label>
+  </br></br>
+	
+    <input type="submit" id="envoyer" name="envoyer" value="S'inscrire">
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+/* code css pour la barre de navigation horizontale */
+.nav {
+    width: 100%;
+    overflow: hidden;
+    background-color:  #0C3865;
+    font-family: 'Calibri','Book Antiqua','New Times Roman';
+  }
+/* code css pour le menu déroulant */
+  .deroulant {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .btn-deroulant a {
+	float: none;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+/* code css pour le bouton principal qui déroule et les boutons sous-menus */
+  .deroulant .btn-deroulant {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color:  #0C3865;
+    font-family: inherit;
+    margin: 0; 
+  }
+/* la couleur de l'arrière-plan de toutes les classes de menu */
+  .nav, .deroulant:hover .btn-deroulant {
+    background-color:  #0C3865;
+  }
+/* css pour le sous-menu */
+  .contenu-deroulant {
+    display: none;
+    position: absolute;
+    background-color: #0C3865;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  button.btn-deroulant:active {
+    background-color: #48C2B3;
+  }
+/* code css pour le texte du bouton sous forme des balise "a" */
+  .contenu-deroulant a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+/*   changer d'arrière-plan lorsque vous passez la souris sur un bouton */
+  .contenu-deroulant a:hover {
+    background-color: #48C2B3;
+  }
+  .deroulant .btn-deroulant:hover {
+    background-color: #48C2B3;
+  }
+  .deroulant:hover .contenu-deroulant {
+    display: block;
+  }
