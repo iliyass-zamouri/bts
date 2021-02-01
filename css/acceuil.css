@@ -38,10 +38,9 @@ h1,h2 {
 	height: 25%;
 	margin-left: 5%;
 	margin-right: 5%;
-	background-color: #fff;
+	color: #fff;
 	position: relative;
 	top: 5%;
-
 }
 .a-titre {
 	color: #0C3865;
@@ -94,7 +93,7 @@ h1,h2 {
 .Act-body p {
 	padding: 3px;
 	margin: 0;
-	font-size: 65%;
+	font-size: 55%;
 	color: #fff;
 	background-color: transparent;
 }

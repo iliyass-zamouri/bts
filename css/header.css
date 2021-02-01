@@ -6,7 +6,7 @@ body{
     text-align: center;
     float: left;
     display: block;
-    background-color: #48C2B3;
+    background-color: #ADEFD1FF;
     width: 6%;
     height: 100%;
     margin-left: 2px;
@@ -19,7 +19,7 @@ body{
     text-align: center;
     background-color:  #0C3865;
     float: right;
-    color: white;
+    color: #ADEFD1FF;
     width: 93%;
     height: 100%;
 	border-radius: 0;

@@ -2,7 +2,7 @@
 .nav {
     width: 100%;
     overflow: hidden;
-    background-color:  #0C3865;
+    background-color:  #fff;
     font-family: 'Calibri','Book Antiqua','New Times Roman';
   }
 /* code css pour le menu déroulant */
@@ -13,7 +13,7 @@
   
   .btn-deroulant a {
 	float: none;
-    color: white;
+    color: #00203FFF;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -23,15 +23,15 @@
     font-size: 16px;
     border: none;
     outline: none;
-    color: white;
+    color: #0C3865;
     padding: 14px 16px;
-    background-color:  #0C3865;
+    background-color:  #ADEFD1FF;
     font-family: inherit;
     margin: 0; 
   }
 /* la couleur de l'arrière-plan de toutes les classes de menu */
   .nav, .deroulant:hover .btn-deroulant {
-    background-color:  #0C3865;
+    background-color:  #ADEFD1FF;
   }
 /* css pour le sous-menu */
   .contenu-deroulant {

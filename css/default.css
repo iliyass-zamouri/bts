@@ -53,17 +53,31 @@ footer {
 }
 /* classe pour la barre latérale où existe le formulaire de connexion */
 .actualite {
-    background-color: #0C3865;
-    margin-top: 8px;
+	background-color: #0C3865;
     width: 20%;
     height: 150%;
     float: right;
 }
 /* div pour le formulaire de connexion */
 .login-div {
+	position: relative;
     width: auto;
     margin: 5px;
     padding: 7px;
+    height: 20%;
+}
+.logedin {
+	text-align: center;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	align-content: center;
+	color: #0C3865;
+	padding: 5px;
+    background-color: #ADEFD1FF;
+	display: flex;
+    width: 100%;
+    text-decoration: none;
     height: 20%;
 }
 /* classe pour les libellés du formulaire de connexion */

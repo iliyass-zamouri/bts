@@ -47,14 +47,24 @@
     </section>
     <section class="actualite">
       <div class="login-div">
-      <form>  
-        <div class="conteneur-mp">   
-            <label class="lbl-login">Email : </label><br> 
-            <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required><br> 
-            <label class="lbl-login">Mots de passe : </label><br>  
-            <input type="password" placeholder="Entrer le mot de passe" name="password" required><br>
-            <a id="mp-oublier" href="#"> Mot de passe oublié? </a>
-            <button class="login-button" type="submit">Se connecter</button>
+          <?php
+          session_start();
+          $nom_prenom = 'Iliyass ZAMOURI';
+         if (session_status() == PHP_SESSION_NONE) {
+          echo '<form>  
+          <div class="conteneur-mp">   
+              <label class="lbl-login">Email : </label><br> 
+              <input type="text" placeholder="Entrer le nom d utilisateur" name="username" required><br> 
+              <label class="lbl-login">Mots de passe : </label><br>  
+              <input type="password" placeholder="Entrer le mot de passe" name="password" required><br>
+              <a id="mp-oublier" href="#"> Mot de passe oublié? </a>
+              <button class="login-button" type="submit">Se connecter</button>
+        </form>';
+         } else {
+          echo '<a href="/profile" class="logedin">'.$nom_prenom.'</a>
+      <button id="btn-logout" class="login-button">Déconection</button>';
+         }
+      ?>      
         </div>   
     </form>     
   </div>

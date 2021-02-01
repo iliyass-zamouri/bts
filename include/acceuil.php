@@ -33,8 +33,8 @@
     <script>showSlides();</script>
 	<div class="actualite-body">
     <?php
-
-    $cn =  mysqli_connect('localhost', 'root','root','bts_laureaut');
+    
+    $cn =  mysqli_connect('localhost','root','','bts_laureat');
     mysqli_set_charset($cn, "utf8");
     /* Vérification de la connexion */
     if (mysqli_connect_errno()) {
