@@ -58,7 +58,7 @@
               <label class="lbl-login">Mots de passe : </label><br>  
               <input type="password" placeholder="Entrer le mot de passe" name="password" required><br>
               <a id="mp-oublier" href="#"> Mot de passe oublié? </a>
-              <button class="login-button" type="submit">Se connecter</button>
+              <button class="login-button" type="submit" name="connecter">Se connecter</button>
         </form>';
          } else {
           echo '<a href="/profile" class="logedin">'.$nom_prenom.'</a>

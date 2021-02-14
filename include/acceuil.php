@@ -34,7 +34,7 @@
 	<div class="actualite-body">
     <?php
     
-    $cn =  mysqli_connect('localhost','root','','bts_laureat');
+    $cn =  mysqli_connect('localhost','root','root','bts_laureaut');
     mysqli_set_charset($cn, "utf8");
     /* Vérification de la connexion */
     if (mysqli_connect_errno()) {
