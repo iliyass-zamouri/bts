@@ -1,0 +1,69 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    background-color: #00adff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+  input[type=submit]:hover {
+    background-color: #00adff;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+ 
+  }
+.formuler  {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    width: 30%;
+}
+.connexion {
+    width: 20%;
+}
+h1 {
+  background: #00adff;
+  border-radius: 12px;
+  width: 20%;
+  color: white;
+}
+table, th, td {
+  border: 2px solid #0043ff;
+  border-collapse: collapse;
+  background: #00b8ff;
+  padding: 17px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+a {
+  background: red;
+  padding: 11px;
+  border-radius: 12px;
+  color: white;
+  text-decoration: auto;
+}
