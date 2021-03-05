@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css\navigateur.css">
     <script src="js\dropdown.js" type="javascript"></script>
     <link rel="icon" href="images\favicon.ico" sizes="16x16" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Association des lauréats de BTS</title>
 <div class="header">
     <iframe src="include\header.html" name="header" allowTransparency="true" scrolling="no" frameborder="0" >
@@ -14,38 +15,49 @@
   </div>
   </head>
 <body>
-    <div class="nav">
-        <div class="deroulant">
-            <button class="btn-deroulant"><a href="include\acceuil.php" target="main">Acceuil</a></button>
-        </div>
-        <div class="deroulant">
-          <button class="btn-deroulant">Association</button>
-          <div class="contenu-deroulant">
-            <a href="include\presentation.html" target="main">Présentation</a>
-            <a href="include\qui-sommes.html" target="main">Qui-somme nous?</a>
-          </div>
-        </div>
-        <div class="deroulant">
-            <button class="btn-deroulant">Offres</button>
-            <div class="contenu-deroulant">
-              <a href="include\stage.html" target="main">Stage</a>
-              <a href="include\recrutement.html" target="main">Recrutement</a>
-              <a href="include\formation.html" target="main">Formation</a>
+    <div class="topnav" id="myTopnav">
+        <a href="include\acceuil.php" class="active" target="main">Acceuil</a>
+        <div class="dropdown">
+            <button class="dropbtn">Association
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="include\presentation.html" target="main">Présentation</a>
+                <a href="include\qui-sommes.html" target="main">Qui-somme nous?</a>
             </div>
-          </div>
-          <div class="deroulant">
-            <button class="btn-deroulant">Contact</button>
-            <div class="contenu-deroulant">
-              <a href="include\contact.html" target="main">Ecrivez-nous</a>
-            </div>   
         </div>
-        <div class="deroulant">
-            <button class="btn-deroulant"><a href="include\inscription.html" target="main">Inscription</a></button>
+        <div class="dropdown">
+            <button class="dropbtn">Offres
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="include\stage.html" target="main">Stage</a>
+                <a href="include\recrutement.html" target="main">Recrutement</a>
+                <a href="include\formation.html" target="main">Formation</a>
+            </div>
         </div>
-        <div id="deroulant-mobile" class="deroulant">
-            <button onclick="" class="btn-deroulant"><a>XXX</a></button>
+        <div class="dropdown">
+            <button class="dropbtn">Contact
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="include\contact.html" target="main">Ecrivez-nous</a>
+            </div>
         </div>
+        <a href="include\inscription.html" id="inscription" class="active" target="main">Inscription</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="dropDownFunction()">&#9776;</a>
+        <script>
+            function dropDownFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
     </div>
+
     <section class="contenue">
 <iframe src="include\acceuil.php" name="main" allowTransparency="true" scrolling="yes" frameborder="0" ></iframe>
     </section>
