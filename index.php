@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta charset="utf-8"/>
     <link rel="stylesheet" href="css\default.css">
     <link rel="stylesheet" href="css\navigateur.css">
+    <script src="js\dropdown.js" type="javascript"></script>
     <link rel="icon" href="images\favicon.ico" sizes="16x16" type="image/png">
     <title>Association des lauréats de BTS</title>
 <div class="header">
@@ -40,6 +41,9 @@
         </div>
         <div class="deroulant">
             <button class="btn-deroulant"><a href="include\inscription.html" target="main">Inscription</a></button>
+        </div>
+        <div id="deroulant-mobile" class="deroulant">
+            <button onclick="" class="btn-deroulant"><a>XXX</a></button>
         </div>
     </div>
     <section class="contenue">

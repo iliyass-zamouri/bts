@@ -4,17 +4,15 @@
 	padding: 5px;
 }
 p {
-	font-family: 'Calibri','Book Antiqua','New Times Roman';
+	font-family: 'Calibri', 'Book Antiqua', 'New Times Roman', serif;
 	text-align:justify;
-	padding: 14px;
 	margin-right: 14px;
 	margin-left: 14px;
-	padding-left: 25px;
-	padding-right: 25px;
+	padding: 14px 25px;
 	background-color: white;
 }
 h1,h2 {
-	font-family: 'Bookman Old Style','Arial','BATMANFOREVERALTERNATIVE';   
+	font-family: 'Bookman Old Style', 'Arial', 'BATMANFOREVERALTERNATIVE', serif;   
 }
 .actualite-body {
 	display: inline-block;
@@ -59,8 +57,7 @@ h1,h2 {
 	border-color: #0C3865;
 }
 .autres-btn {
-	font-family: 'Calibri','Book Antiqua','New Times Roman';
-	font-size: normal;
+	font-family: 'Calibri', 'Book Antiqua', 'New Times Roman', serif;
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
