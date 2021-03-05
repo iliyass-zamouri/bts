@@ -1,5 +1,6 @@
 p {
 	font-family: 'Calibri','Book Antiqua','New Times Roman';
+	font-size: 18px;
 	text-align:justify;
 	background-color: white;
 }
@@ -67,15 +68,21 @@ footer {
     height: 20%;
 }
 .logedin {
-	text-align: center;
-	position: relative;
-	left: 50%;
-	transform: translate(-50%);
-	align-content: center;
-	color: #0C3865;
-	padding: 5px;
-    background-color: #ADEFD1FF;
 	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 10px 0px;
+	text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    align-content: center;
+    color: #0C3865;
+    padding: 5px;
+    background-color: #ADEFD1FF;
+    display: flex;
     width: 100%;
     text-decoration: none;
     height: 20%;
@@ -92,14 +99,14 @@ footer {
 /* le bouton se connecter du formulaire de connexion */
 .login-button {   
 	font-family: 'Calibri','Book Antiqua','New Times Roman';
-	font-size: 15px;
-    	background-color: white;  
-    	width: 100%;  
-    	color: #0C3865;   
-    	padding: 10px;   
-    	margin: 7px 0px;   
-    	border: none;   
-    	cursor: pointer;  
+    font-size: 15px;
+    background-color: white;
+    width: 100%;
+    color: #0C3865;
+    padding: 10px;
+    margin: 7px 0px;
+    border: none;
+    cursor: pointer; 
 	
       } 
 /* les zones de texte du login et le mot de passe  */
