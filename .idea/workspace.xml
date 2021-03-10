@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/navigateur.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigateur.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/dropdown.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php-7.4.16" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php-7.4.0" />
   <component name="ProjectId" id="1pJhXRZt7FUy0V07EAvCwmuqbrH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,7 +34,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin/php/php7.4.0/php-cgi.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,22 +53,48 @@
       <option name="presentableId" value="Default" />
       <updated>1614907140213</updated>
       <workItem from="1614907141536" duration="1018000" />
-      <workItem from="1614947875506" duration="3814000" />
+      <workItem from="1614947875506" duration="3856000" />
+      <workItem from="1615060141125" duration="739000" />
+      <workItem from="1615379780400" duration="1433000" />
     </task>
+    <task id="LOCAL-00001" summary="Responsive navbar">
+      <created>1614951778088</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614951778088</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Responsive navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive navbar" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="402" y="0" width="588" height="738" key="#PHP" timestamp="1614907505195">
+    <state x="276" y="23" key="#CLI_Interpreters" timestamp="1615379912800">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="402" y="0" width="588" height="738" key="#PHP/0.0.1366.738@0.0.1366.738" timestamp="1614907505195" />
+    <state x="276" y="23" key="#CLI_Interpreters/0.0.1366.738@0.0.1366.738" timestamp="1615379912800" />
+    <state x="402" y="0" width="588" height="738" key="#PHP" timestamp="1615379927539">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="402" y="0" width="588" height="738" key="#PHP/0.0.1366.738@0.0.1366.738" timestamp="1615379927539" />
     <state x="59" y="204" key="#SQL_Dialects" timestamp="1614907942894">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="59" y="204" key="#SQL_Dialects/0.0.1366.738@0.0.1366.738" timestamp="1614907942894" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1614951776268">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1614951776268" />
+    <state x="476" y="123" key="FileChooserDialogImpl" timestamp="1615379886317">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="476" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1615379886317" />
     <state x="184" y="13" key="SettingsEditor" timestamp="1614907389318">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

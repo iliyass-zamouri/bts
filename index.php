@@ -16,7 +16,7 @@
   </head>
 <body>
     <div class="topnav" id="myTopnav">
-        <a href="include\acceuil.php" class="active" target="main">Acceuil</a>
+        <a href="include\acceuil.php" class="active" target="main"><i class="fa fa-home" aria-hidden="true"></i></a>
         <div class="dropdown">
             <button class="dropbtn">Association
                 <i class="fa fa-caret-down"></i>
@@ -44,7 +44,7 @@
                 <a href="include\contact.html" target="main">Ecrivez-nous</a>
             </div>
         </div>
-        <a href="include\inscription.html" id="inscription" class="active" target="main">Inscription</a>
+        <a href="include\inscription.html" id="inscription" class="active" target="main"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="dropDownFunction()">&#9776;</a>
         <script>
             function dropDownFunction() {
@@ -65,8 +65,9 @@
       <div class="login-div">
           <?php
           session_start();
-          $nom_prenom = 'Iliyass ZAMOURI';
-         if (session_status() == PHP_SESSION_NONE) {
+          $nom = 'ZAMOURI';
+          $prenom = 'Iliyass';
+          if (session_status() == PHP_SESSION_NONE) {
           echo '<form>  
           <div class="conteneur-mp">   
               <label class="lbl-login">Email : </label><br> 
@@ -77,7 +78,7 @@
               <button class="login-button" type="submit" name="connecter">Se connecter</button>
         </form>';
          } else {
-          echo '<a href="/profile" class="logedin">'.$nom_prenom.'</a>
+          echo '<a href="/profile" class="logedin">'.$nom.' '.$prenom.'</a>
       <button id="btn-logout" class="login-button">Déconection</button>';
          }
       ?>      
