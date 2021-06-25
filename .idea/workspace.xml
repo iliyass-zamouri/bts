@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7b84cfd-b3e1-4dd9-ad60-bb56ed462081" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/navigateur.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigateur.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="d7b84cfd-b3e1-4dd9-ad60-bb56ed462081" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +30,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin/php/php7.4.0/php-cgi.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,6 +52,7 @@
       <workItem from="1614947875506" duration="3856000" />
       <workItem from="1615060141125" duration="739000" />
       <workItem from="1615379780400" duration="1433000" />
+      <workItem from="1618048647239" duration="66000" />
     </task>
     <task id="LOCAL-00001" summary="Responsive navbar">
       <created>1614951778088</created>
@@ -91,10 +88,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1614951776268" />
-    <state x="476" y="123" key="FileChooserDialogImpl" timestamp="1615379886317">
+    <state x="476" y="123" key="FileChooserDialogImpl" timestamp="1618048713918">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="476" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1615379886317" />
+    <state x="476" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1618048713918" />
     <state x="184" y="13" key="SettingsEditor" timestamp="1614907389318">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
